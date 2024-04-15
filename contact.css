@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container{
+    max-width: 900px;
+    height: 25rem;
+    margin-inline: auto;
+    margin-top: 8rem;
+    border: 2px solid black;
+}
+
+#head1{
+    font-size: 5rem;
+    text-align: center;
+}
+
+#head2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+input{
+    display: flex;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    width: 30rem;
+    border: 0;
+    font-size: 1.1rem;
+    color: black;
+    outline: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid black;
+}
+
+#cmsub{
+    width: 7rem;
+    border-bottom: 0;
+    border-radius: 0.5rem;
+    justify-content: center;
+    margin-top: 2.2rem;
+    border: 2px solid black;
+}
+
+#cmsub:hover{
+    background-color: green;
+    color: white;
+    width: 8rem;
+}
