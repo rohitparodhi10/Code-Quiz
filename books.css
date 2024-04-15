@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* book hero container */
+
+.book-container{
+    max-width: 900px;
+    height: 20rem;
+    margin-inline: auto;
+    margin-top: 3rem;
+    background-image: url("bookback.jpg");
+    background-size: 26rem;
+    background-position: right;
+    background-repeat: no-repeat;
+    /* box-shadow: 0 0 10px black; */
+    border-radius: 0.2rem;
+}
+
+.book-container p{
+    font-size: 4rem;
+    font-family: "Lobster";
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+
+/* pick book */
+
+#pick-book{
+    width: 400px;
+    height: 2rem;
+    margin-inline: auto;
+    font-size: 2rem;
+    font-family: "Lobster";
+    margin-top: 2rem;
+    text-align: center;
+    animation: pick 2s infinite ease-in;
+}
+
+@keyframes pick {
+    0%{
+        color: rgb(100, 95, 95);
+    }
+    50%{
+        color: rgb(153, 200, 225);
+    }
+    100%{
+        color: rgb(122, 122, 231);
+    }
+    
+}
+
+/* real book container */
+
+.books-container{
+    max-width:1200px;
+    height: 20rem;
+    margin-inline: auto;
+    margin-top: 1rem;
+    /* border: 1px solid black; */
+}
+
+.books-container img{
+    width: 12rem;
+    height: 15rem;
+    margin-left: 0.5rem;
+    margin-top: 1.2rem;
+    border: 2px solid white;
+    padding: 1rem;
+    box-shadow: 0 0 5px black;
+}
+
+.books-container img:hover{
+    transform: scale(1.1);
+}

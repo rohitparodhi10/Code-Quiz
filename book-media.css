@@ -1,0 +1,28 @@
+@media screen and (max-widht:360px){
+    .book-container{
+        background-position:right;
+    }
+    .book-container p{
+        font-size: 0.1rem;
+    }
+}
+
+@media screen and (max-width:430px){
+   .book-container{
+    /* border: 1px solid black; */
+    background-size: 30rem;
+   }
+
+   .book-container p{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 9rem;
+    text-shadow: 0 0 10px white;
+   }
+
+   .books-container{
+    /* border: 1px solid black; */
+    text-align: center;
+   }
+}
+
