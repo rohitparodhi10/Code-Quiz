@@ -1,0 +1,10 @@
+@media screen and (max-width:430px){
+    .store-container{
+       width: 380px;
+       height: 40rem;
+       background-size: 28rem;
+       background-position-x:-1.7rem ;
+       background-position-y: 2rem;
+    }
+    
+}

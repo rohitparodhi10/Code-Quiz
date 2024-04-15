@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.store-container{
+    background-image: url("under construction.jpg");
+    width: 1200px;
+    height: 30rem;
+    background-size: 50rem;
+    background-position-y:-7rem ;
+    background-position-x: 12rem;
+    background-repeat: no-repeat;
+    margin-inline: auto;
+    margin-top: 2rem;
+    /* border: 1px solid black; */
+}
