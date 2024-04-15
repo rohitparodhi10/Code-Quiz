@@ -1,0 +1,171 @@
+@media screen and (max-width:420px){
+    .first{
+        width: 350px;
+        height: 18rem;
+        margin-top: 15rem;
+    }
+    #firsttext{
+        font-size: 1.2rem;
+        text-align:center;
+    }
+    #firstBtn{
+        margin-left: 6rem;
+    }
+
+    /* quiz section */
+
+    .quiz-section{
+        width: 400px;
+        height: 40rem;
+        margin-top: 5rem;
+    }
+    
+    h4{
+        width: 400px;
+        height: 6rem;
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        border-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .quiz{
+        left: 6%;
+
+    }
+
+    ul li{
+        width: 380px;
+        height: 60px;
+    }
+
+    label{
+        font-size: 1.2rem;
+        line-height: 90%;
+    }
+    label:hover{
+        font-size:1.3rem ;
+    }
+
+    #prevsubmit{
+        margin-top: 27rem;
+        margin-left: 2rem;
+    }
+
+    .result{
+        width: 400px;
+        height: 35rem;
+    }
+
+    .result #finalText{
+        width: 370px;
+        height: 4rem;
+        font-size: 2.5rem;
+    }
+
+    #there{
+        width: 370px;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.8rem;
+    }
+
+    #finalScoreTxt{
+        margin-top: 10rem;
+    }
+
+    .result p{
+        font-size: 2rem;
+    }
+
+    .result button{
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .first{
+        width: 350px;
+        height: 18rem;
+        margin-top: 15rem;
+    }
+    #firsttext{
+        font-size: 1.2rem;
+        text-align:center;
+    }
+    #firstBtn{
+        margin-left: 6rem;
+    }
+
+    /* quiz section */
+
+    .quiz-section{
+        width: 400px;
+        height: 40rem;
+        margin-top: 5rem;
+    }
+    
+    h4{
+        width: 400px;
+        height: 6rem;
+        padding-top: 2rem;
+        font-size:1.5rem;
+        line-height: 2rem;
+        border-radius: 0.5rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .quiz{
+        left: 6%;
+    }
+
+    ul li{
+        width: 370px;
+        height: 70px;
+    }
+
+    label{
+        font-size: 1.2rem;
+        line-height: 95%;
+    }
+    label:hover{
+        font-size:1.2rem ;
+    }
+
+    #prevsubmit{
+        margin-top: 27rem;
+        margin-left: 2rem;
+    }
+
+    .result{
+        width: 400px;
+        height: 38rem;
+    }
+
+    .result #finalText{
+        width: 370px;
+        height: 4rem;
+        font-size: 2.5rem;
+    }
+
+    #there{
+        width: 370px;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 1.8rem;
+    }
+
+    #finalScoreTxt{
+        margin-top: 10rem;
+    }
+
+    .result p{
+        font-size: 2rem;
+    }
+
+    .result button{
+        margin-left: 5rem;
+    }
+}
