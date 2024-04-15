@@ -1,0 +1,337 @@
+@media screen and (max-width:430px) {
+    body{
+        background-color: white;
+    }
+    nav{
+        max-width: 350px;
+        height: 3rem;
+    }
+    nav ul{
+        font-size: 0.9rem;
+    }
+    nav a{
+        opacity: 1;
+    }
+    a:hover{
+        opacity: .5;
+    }
+
+    .container-main{
+        margin-top: 0.5rem;
+        max-width: 390px;
+        margin-left: 1rem;
+        border: 0.01px solid white;
+        height: 43rem;
+        background-size: 57.0rem;
+        background-position: center;
+        background-position-x:center;
+        background-position-y: -3rem;
+    }
+    .container-main h2{
+        font-size: 5rem;
+        line-height: 4rem;
+        margin-top: 17rem;
+        color: white;
+        text-shadow: 0 0 10px rgb(105, 160, 185);
+    }
+    .container-main p{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .option{
+        width: 20.0rem;
+    }
+    .option ul{
+        padding: 0.3rem;
+    }
+
+    .quizes{
+        max-width: 390px;
+        height: 55rem;
+        /* text-align: center; */
+        /* border: 1px solid black; */
+    }
+    #head{
+        width: 20.0rem;
+        height: 3rem;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .quizes img{
+        width: 8rem;
+        height: 8rem;
+        /* margin-left: 2.5rem; */
+        margin-bottom: 3rem;
+    }
+
+    /* suggestion form */
+
+    #sugganimate{
+        margin-left: -3rem;
+    }
+
+    #suline{
+        font-size: 1.5rem;
+    }
+
+    div textarea{
+        width: 23rem;
+        
+    }
+
+    #inputsufn{
+        width: 10rem;
+    }
+
+    #inputsu{
+        width: 10rem;
+    }
+
+    #inputemail{
+        width: 21rem;
+    }
+
+    /* Contact page */
+
+    .contact-container input{
+        width: 25rem;
+        font-size: 1.5rem;
+    }
+
+    .contact-container #cmsub{
+        margin-top: 1.2rem;
+    }
+
+    /* footer */
+
+    .bottom{
+        height: 15rem;
+    }
+
+    #b3{
+        margin-bottom: 0.5rem;
+    }
+
+    .contact{
+        margin-top: -4rem;
+    }
+
+    #c3{
+        /* margin-bottom: 0.5rem; */
+    }
+}
+
+@media screen and (max-width:550px){
+    body{
+        background-color: white;
+    }
+    nav{
+        max-width: 350px;
+        height: 3rem;
+    }
+    nav ul{
+        font-size: 0.9rem;
+    }
+    nav a{
+        opacity: 1;
+    }
+    a:hover{
+        opacity: .5;
+    }
+
+    .container-main{
+        margin-top: 0.5rem;
+        max-width: 390px;
+        margin-left: 1rem;
+        border: 0.01px solid white;
+        height: 43rem;
+        background-size: 57.0rem;
+        background-position: center;
+        background-position-x:right;
+        background-position-y: -3rem;
+    }
+    .container-main h2{
+        font-size: 5rem;
+        line-height: 4rem;
+        margin-top: 17rem;
+        color: white;
+        text-shadow: 0 0 10px rgb(105, 160, 185);
+    }
+    .container-main p{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .option{
+        width: 20.0rem;
+    }
+    .option ul{
+        padding: 0.3rem;
+    }
+
+    .quizes{
+        max-width: 390px;
+        height: 55rem;
+    }
+    #head{
+        width: 20.0rem;
+        height: 3rem;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .quizes img{
+        width: 8rem;
+        height: 8rem;
+        margin-left: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    /* suggestion form */
+
+    #sugganimate{
+        margin-left: -3rem;
+    }
+
+    #suline{
+        font-size: 1.5rem;
+    }
+
+    div textarea{
+        width: 23rem;
+        
+    }
+
+    #inputsufn{
+        width: 10rem;
+    }
+
+    #inputsu{
+        width: 10rem;
+    }
+
+    #inputemail{
+        width: 21rem;
+    }
+
+    /* Contact page */
+
+    .contact-container input{
+        width: 25rem;
+        font-size: 1.5rem;
+    }
+
+    .contact-container #cmsub{
+        margin-top: 1.2rem;
+    }
+    
+}
+
+@media screen and (max-width:410px){
+    body{
+        background-color: white;
+    }
+    nav{
+        max-width: 270px;
+        height: 3rem;
+        margin-inline: auto;
+    }
+    nav ul{
+        font-size: 0.6rem;
+    }
+    nav a{
+        opacity: 1;
+    }
+    a:hover{
+        opacity: .5;
+    }
+
+    .container-main{
+        margin-top: 0.5rem;
+        max-width: 390px;
+        margin-left: -0.6rem;
+        border: 0.01px solid white;
+        height: 43rem;
+        background-size: 48.0rem;
+        background-position: center;
+        background-position-x:right;
+        background-position-y: -3rem;
+    }
+    .container-main h2{
+        font-size: 5rem;
+        line-height: 4rem;
+        margin-top: 17rem;
+        color: white;
+        text-shadow: 0 0 10px rgb(105, 160, 185);
+    }
+    .container-main p{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .option{
+        width: 20.0rem;
+    }
+    .option ul{
+        padding: 0.3rem;
+    }
+
+    .quizes{
+        max-width: 390px;
+        height: 55rem;
+    }
+    #head{
+        width: 20.0rem;
+        height: 3rem;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .quizes img{
+        width: 8rem;
+        height: 8rem;
+        margin-left: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    /* suggestion form */
+
+    #sugganimate{
+        margin-left: -3rem;
+    }
+
+    #suline{
+        font-size: 1.5rem;
+    }
+
+    div textarea{
+        width: 23rem;
+        
+    }
+
+    #inputsufn{
+        width: 9rem;
+    }
+
+    #inputsu{
+        width: 9rem;
+    }
+
+    #inputemail{
+        width: 21rem;
+    }
+
+    /* Contact page */
+
+    .contact-container input{
+        width:22rem;
+        font-size: 1.5rem;
+    }
+
+    .contact-container #cmsub{
+        margin-top: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width:360px){
+    .bottom{
+        max-width: 1700px;
+    }
+}
