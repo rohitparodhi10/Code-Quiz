@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="python.css">
+    <link rel="stylesheet" href="python-media.css">
+    <title>Python Quiz</title>
+</head>
+<body>
+    <section class="first">
+        <p id="firsttext">This Python quiz has a total of 25 questions, 
+            each carrying a weight of 1 mark. Your result will be shown after completing the quiz.</p>
+        <p>Best of Luck!</p><br>    
+        <button id="firstBtn">Start</button>
+    </section>
+    <div class="quiz-section">
+        <h4 id="question">Quiz question</h4>
+        <div class="quiz">
+            <!-- <p id="line">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</p> -->
+            <ul>
+                <li>
+                    <input type="radio", name="answer", class="answer", id="a">
+                    <label for="a", id="option_1">quiz answer</label>
+                </li>
+                <li>
+                    <input type="radio", name="answer", class="answer", id="b">
+                    <label for="b", id="option_2">quiz answer</label>
+                </li>
+                <li>
+                    <input type="radio", name="answer", class="answer", id="c">
+                    <label for="c", id="option_3">quiz answer</label>
+                </li>
+                <li>
+                    <input type="radio", name="answer", class="answer", id="d">
+                    <label for="d", id="option_4">quiz answer</label>
+                </li>
+            </ul>
+            
+        </div>
+        <div class="next-btn">
+            <button type="submit", id="prevsubmit"> Prev</button>
+            <button type="submit", id="submit">Next</button>
+        </div>
+        <div class="result">
+            <p id="there">Your Result is there</p>
+            <h2 id="finalText"> </h2>
+            <h3 id="finalScoreTxt"></h3>
+            <p>Congratulations on completing the quiz! Thank You.</p>
+            <button id="finalBtn">Exit</button>
+            
+        <!-- <p id="line">⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯</p> -->
+        
+    </div>
+
+    <script src="python.js"></script>
+</body>
+</html>
+       
