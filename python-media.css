@@ -81,6 +81,13 @@
     .result button{
         margin-left: 5rem;
     }
+
+    /* check answer exit */
+
+    #finalBt{
+        margin-left: 5rem;
+        margin-top: -2rem;
+    }
 }
 
 @media screen and (max-width:410px) {
@@ -215,7 +222,7 @@
 
     ul li{
         width: 370px;
-        height: 60px;
+        height: 70px;
     }
 
     label{
@@ -233,7 +240,7 @@
 
     .result{
         width: 400px;
-        height: 38rem;
+        height: 42rem;
     }
 
     .result #finalText{
@@ -251,6 +258,7 @@
 
     #finalScoreTxt{
         margin-top: 10rem;
+        font-size: 2.2rem;
     }
 
     .result p{
@@ -258,6 +266,14 @@
     }
 
     .result button{
+        margin-left: 5rem;
+        margin-bottom: -1rem;
+        
+    }
+
+    /* check answer exit */
+
+    #finalBt{
         margin-left: 5rem;
     }
 }

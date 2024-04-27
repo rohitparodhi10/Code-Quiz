@@ -272,6 +272,10 @@ const startQuiz=document.querySelector(".start");
 const popup=document.querySelector(".first");
 const popupTxt=document.querySelector("#firsttext");
 const firstBtn=document.querySelector("#firstBtn");
+const check=document.querySelector("#check");
+const qq=document.querySelector("#tt");
+const lastBtn=document.querySelector("#finalBt");
+
 
 
 
@@ -282,7 +286,6 @@ firstBtn.addEventListener("click",()=>{
 });
 
 // create variable
-
 let currentQuiz=0;
 let score=0;
 
@@ -373,5 +376,28 @@ const StartFun=()=>{
     prevBtn.style.display="none";
     Section.style.backgroundColor="white";
     body.style.background="white";
-
 }
+
+check.addEventListener("click", ()=>{
+    qq.style.display="block";
+    lastBtn.style.display="block";
+    finalResult.style.display="none";
+    let output = '';
+    quizData.forEach((obj, index) => {
+    output += `Question ${index + 1}: ${obj.question}\n`;
+    output += `Options:\n`;
+    obj.options.forEach((option, optionIndex) => {
+        output += `${String.fromCharCode(65 + optionIndex)}. ${option}\n`;
+    });
+    // Retrieve the correct answer from the options array using the correct index
+    const correctOption = obj.options[obj.correct];
+    output += `Correct Answer: ${correctOption}\n\n\n`;
+});
+
+// Now set the innerText of your element to the constructed output
+    qq.innerText = output;
+});
+
+lastBtn.addEventListener("click",()=>{
+    window.location.href="index.html";
+})
